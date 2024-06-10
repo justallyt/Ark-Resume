@@ -25,6 +25,7 @@
 .hero-texts p{
      font-size: 18px;
      line-height: 1.6;
+     color: rgb(50, 50, 50);
 }
 
 .hero-texts a{
@@ -137,7 +138,7 @@
 }
 .extra-about-column.two p{
         font-size: 18px;
-        margin-bottom: 20px;
+        margin-bottom: 30px;
 }
 .extra-about a{
       border: 2px solid whitesmoke;
@@ -165,18 +166,186 @@
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
+/* Services Styles */
 .services-section{
-      height: 1000px;
+      padding: 100px 0;
+}
+.service-intro{
+        width: 900px;
+        text-align: center;
+        margin: auto;
+}
+.service-intro h3{
+       font-size: 20px;
+       color: var(--secondary-color);
+       font-weight: 500;
+}
+.service-intro h2{
+      font-size: 55px;
+      font-family: var(--bold-font);
+      margin: 10px 0;
+      line-height: 1.5;
+      font-weight: 600;
+}
+.service-intro p{
+       width: 80%;
+       margin: auto;
+       font-size: 20px;
+       line-height: 1.7;
+       color: rgb(50, 50, 50);
+}
+
+.services-row{
+      display: grid;
+      grid-template-columns: repeat(4,1fr);
+      margin-top: 50px;
+      gap: 40px;
+}
+
+.service-moja .icon{
+      width: 40px;
+      height: 40px;
+      margin-bottom: 10px;
+}
+
+.service-moja h2{
+       font-family: var(--bold-font);
+       font-weight: 500;
+       margin-bottom: 10px;
+       font-size: 22px;
+}
+
+.service-moja p{
+      line-height: 1.6;
+      color: rgb(50, 50, 50);
+}
+
+
+/* Benefits  Styles */
+
+.benefits-section{
+        background: #e5eaf9;
+        display: grid;
+        grid-template-columns: 2fr 1.7fr;
+}
+.benefits-texts-column{
+      padding: 100px 0;
+}
+.benefits-inner{
+       width: 80%;
+       margin: auto;
+}
+.benefits-intro h3{
+      font-size: 20px;
+      color: var(--secondary-color);
+      font-weight: 500;
+}
+.benefits-intro h1{
+        font-size: 55px;
+        font-weight: 600;
+        font-family: var(--bold-font);
+        margin: 10px 0;
+}
+
+.benefits-row{
+       display: grid;
+       grid-template-columns: 1fr 1fr;
+       margin-top: 30px;
+}
+.benefit-moja{
+        padding: 30px;
+}
+.benefit-moja:nth-child(1),
+.benefit-moja:nth-child(3){
+        border-right: 1px solid rgba(220, 220, 220, 0.6);
+}
+.benefit-moja:nth-child(3),
+.benefit-moja:nth-child(4){
+      border-top: 1px solid rgba(220, 220, 220, 0.6);
+}
+.benefit-moja .icon img{
+        width: 30px;
+        height: 30px;
+        object-fit: contain;
+}
+
+.benefit-moja h3{
+      font-size: 19px;
+      font-family: var(--bold-font);
+      font-weight: 500;
+      line-height: 1.5;
+      margin-bottom: 10px;
+}
+.benefit-moja p{
+       font-size: 15px;
+       color: rgb(50, 50, 50);
+       line-height: 1.5;
+}
+
+/* Process Styles */
+.process-section{
+       padding: 100px 0;
+}
+.process-intro{
+       width: 800px;
+       margin: auto;
+       text-align: center;
+}
+.process-intro h3{
+      font-size: 20px;
+      color: var(--secondary-color);
+      font-weight: 500;
+}
+
+.process-intro h1{
+      font-size: 55px;
+      font-weight: 600;
+      font-family: var(--bold-font);
+      margin: 10px 0;
+}
+
+.process-row{
+      display: grid;
+      grid-template-columns: repeat(4,1fr);
+      gap: 30px;
+      margin-top: 50px;
+}
+.process-moja{
+      background: white;
+      padding: 30px;
+      border-radius: 10px;
+      -webkit-border-radius: 10px;
+      -moz-border-radius: 10px;
+      -ms-border-radius: 10px;
+      -o-border-radius: 10px;
+}
+.process-moja .icon{
+     position: relative;
+     display: inline-flex;
+     align-items: center;
+     justify-content: center;
+}
+.process-moja img.ico{
+       width: 45px;
+       height: 45px;
+       position:  absolute;
+       object-fit: contain;
+}
+.process-moja img.blob{
+       width: 70px;
+       height: 70px;
+       object-fit: contain;
+}
+
+.process-moja h3{
+       font-size: 20px;
+       font-weight: 600;
+       margin-bottom: 5px;
+       line-height: 1.5;
+}
+
+.process-moja p{
+      font-size: 16px;
+      color:rgb(50, 50, 50);
+      line-height: 1.6;
 }
