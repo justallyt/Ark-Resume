@@ -297,7 +297,8 @@
       font-weight: 500;
 }
 
-.process-intro h1{
+.process-intro h1,
+.pricing-intro h1{
       font-size: 55px;
       font-weight: 600;
       font-family: var(--bold-font);
@@ -308,9 +309,55 @@
       display: grid;
       grid-template-columns: repeat(4,1fr);
       gap: 30px;
-      margin-top: 50px;
+      margin-top: 100px;
+}
+.process-moja-wrap{
+       position: relative;
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+}
+.process-moja-wrap .number{
+       font-size: 65px;
+       font-family: var(--bold-font);
+       font-weight: 600;
+       position: absolute;
+       top: 0;
+       transform: translateY(-52px);
+       -webkit-transform: translateY(-52px);
+       -moz-transform: translateY(-52px);
+       -ms-transform: translateY(-52px);
+       -o-transform: translateY(-52px);
+       z-index: 2;
+       transition:all 0.8s ease;
+       -webkit-transition:all 0.8s ease;
+       -moz-transition:all 0.8s ease;
+       -ms-transition:all 0.8s ease;
+       -o-transition:all 0.8s ease;
+       color: rgb(235, 235, 235);
+}
+.process-moja-wrap:nth-child(1):hover .number{
+       color: rgb(136, 194, 245);
+}
+.process-moja-wrap:nth-child(2):hover .number{
+      color: rgb(247, 198, 158);
+}
+.process-moja-wrap:nth-child(3):hover .number{
+      color: rgb(167, 236, 199);
+}
+.process-moja-wrap:nth-child(4):hover .number{
+      color: rgb(236, 167, 222);
+}
+.process-moja-wrap:hover .number{
+       transform: translateY(-90px);
+       -webkit-transform: translateY(-90px);
+       -moz-transform: translateY(-90px);
+       -ms-transform: translateY(-90px);
+       -o-transform: translateY(-90px);
 }
 .process-moja{
+       position: relative;
+       z-index: 5;
       background: white;
       padding: 30px;
       border-radius: 10px;
@@ -348,4 +395,155 @@
       font-size: 16px;
       color:rgb(50, 50, 50);
       line-height: 1.6;
+}
+
+.image-strip-section{
+      padding-bottom: 80px;
+      display: flex;
+      justify-content: center;
+}
+.image-strip{
+       width: 100%;
+       height: 500px;
+       overflow: hidden;
+       border-radius: 250px;
+       transition: all 0.5s ease;
+       -webkit-transition: all 0.5s ease;
+       -moz-transition: all 0.5s ease;
+       -ms-transition: all 0.5s ease;
+       -o-transition: all 0.5s ease;
+       -webkit-border-radius: 250px;
+       -moz-border-radius: 250px;
+       -ms-border-radius: 250px;
+       -o-border-radius: 250px;
+       scale: 0 0;
+       animation: scroll-watcher linear;
+       -webkit-animation: scroll-watcher linear;
+       animation-timeline: scroll();
+}
+
+
+@keyframes scroll-watcher {
+      to { scale: 1 1 }
+}
+
+
+
+
+.pricing-section{
+
+       padding-bottom: 100px;
+}
+.pricing-intro{
+       width: 800px;
+       margin: auto;
+       text-align: center;
+}
+.pricing-intro h3{
+       font-size: 20px;
+       color: var(--secondary-color);
+       font-weight: 500;
+}
+
+.pricing-intro p{
+       font-size: 18px;
+       line-height: 1.6;
+       color: rgb(50, 50, 50);
+}
+.pricing-tabs{
+      margin: 30px 0;
+      display: flex;
+      justify-content: center;
+}
+.pricing-tabs ul{
+      display: inline-flex;
+      justify-content: center;
+      border-bottom: 1px solid gainsboro;
+      gap: 5px;
+}
+.pricing-tabs ul li {
+      padding: 15px 30px;
+      font-size: 16px;
+      cursor: pointer;
+      font-weight: 400;
+      border-radius: 6px 6px 0px 0px;
+      -webkit-border-radius: 6px 6px 0px 0px;
+      -moz-border-radius: 6px 6px 0px 0px;
+      -ms-border-radius: 6px 6px 0px 0px;
+      -o-border-radius: 6px 6px 0px 0px;
+      color: rgb(50, 50, 50);
+}
+.pricing-tabs ul li:hover,
+.pricing-tabs ul li.active{
+       background:rgb(197, 218, 246);
+       font-weight: 500;
+}
+
+.pricing-tab-content{
+       width: 900px;
+       margin: auto;
+}
+.pricing-tab-content p.intro{
+       font-size: 20px;
+       line-height: 1.5;
+       text-align: center;
+       margin-bottom: 20px;
+       color: rgb(50, 50, 50);
+}
+.pricing-tab-content h2{
+       font-size: 20px;
+       font-weight: 500;
+       margin-bottom: 15px;
+}
+.pricing-package-wrap{
+       display: flex;
+       gap: 30px;
+       flex-wrap: wrap;
+}
+.package-box{
+       display: flex;
+       width: 250px;
+       padding: 15px;
+       flex-direction: column;
+       border-radius: 10px;
+       -webkit-border-radius: 10px;
+       -moz-border-radius: 10px;
+       -ms-border-radius: 10px;
+       -o-border-radius: 10px;
+       background:rgba(158, 199, 235, 0.438);
+}
+
+.package-box h4{
+        font-size: 15px;
+        font-weight: 400;
+        margin-bottom: 5px;
+}
+
+.package-box h5{
+       font-weight: 500;
+       font-size: 16px;
+       margin-bottom: 5px;
+}
+.package-box p{
+       font-size: 25px;
+       font-weight: 500;
+       font-family: var(--bold-font);
+}
+.package-box p span{
+      font-size: 15px;
+}
+
+.more-stuff{
+       margin-top: 30px;
+}
+
+.pricing-tab-content ul{
+       width: 90%;
+       margin: auto;
+}
+
+.pricing-tab-content ul li {
+        line-height: 1.6;
+        font-size: 18px;
+        margin-bottom: 10px;
 }

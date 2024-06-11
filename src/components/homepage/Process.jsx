@@ -17,38 +17,50 @@ const Process = () => {
                        </div>
 
                        <div className="process-row">
-                                <div className="process-moja">
-                                             <div className="icon">
-                                                     <img className="ico" src={book} alt="" />
-                                                     <img className="blob" src={blob1} alt="" />
-                                             </div>
-                                             <h3>Book Consultation</h3>
-                                             <p>Schedule a complimentary consultation with our lead resume writer. This initial chart allows us to understand your unique career goals, industry experience, and desired positions.</p>
+                                <div className="process-moja-wrap">
+                                         <span className="number">01</span>
+                                        <div className="process-moja">
+                                                     <div className="icon">
+                                                             <img className="ico" src={book} alt="" />
+                                                             <img className="blob" src={blob1} alt="" />
+                                                     </div>
+                                                     <h3>Book Consultation</h3>
+                                                     <p>Schedule a complimentary consultation with our lead resume writer. This initial chart allows us to understand your unique career goals, industry experience, and desired positions.</p>
+                                        </div>
                                 </div>
-                                <div className="process-moja">
-                                             <div className="icon">
-                                                     <img className="ico" src={document} alt="" />
-                                                     <img className="blob" src={blob2} alt="" />
-                                             </div>
-                                             <h3>Submission of Documents</h3>
-                                             <p>You&apos;ll submit any relevant documents such as your current resume, job descriptions for target positions, and any additional information that showcases your skills and achievements.</p>
+                                <div className="process-moja-wrap">
+                                         <span className="number">02</span>
+                                         <div className="process-moja">
+                                                   <div className="icon">
+                                                           <img className="ico" src={document} alt="" />
+                                                           <img className="blob" src={blob2} alt="" />
+                                                   </div>
+                                                    <h3>Submission of Documents</h3>
+                                                    <p>You&apos;ll submit any relevant documents such as your current resume, job descriptions for target positions, and any additional information that showcases your skills and achievements.</p>
+                                           </div>
                                 </div>
-                                <div className="process-moja">
-                                             <div className="icon">
-                                                     <img className="ico" src={payment} alt="" />
-                                                     <img className="blob" src={blob3} alt="" />
-                                             </div>
-                                             <h3>Payment Initiation & Completion</h3>
-                                             <p>After finalizing the scope, you&apos;ll be able to make a secure payment to get started. We offer flexible payment options to fit your needs.</p>
+                                <div className="process-moja-wrap">
+                                        <span className="number">03</span>
+                                        <div className="process-moja">
+                                                  <div className="icon">
+                                                            <img className="ico" src={payment} alt="" />
+                                                            <img className="blob" src={blob3} alt="" />
+                                                  </div>
+                                                   <h3>Payment Initiation & Completion</h3>
+                                                   <p>After finalizing the scope, you&apos;ll be able to make a secure payment to get started. We offer flexible payment options to fit your needs.</p>
+                                       </div>
                                 </div>
-                                <div className="process-moja">
+                               <div className="process-moja-wrap">
+                                     <span className="number">04</span>
+                                    <div className="process-moja">
                                              <div className="icon">
                                                      <img className="ico" src={completion} alt="" />
                                                      <img className="blob" src={blob4} alt="" />
                                              </div>
                                              <h3>Resume Product Delivery</h3>
                                              <p>Within the agreed-upon timeframe, you&apos;ll receive your expertly crafted resume. We&apos;ll also be available to answer any questions you have and ensure you&apos;re completely satisfied with the final product.</p>
-                                </div>
+                                      </div>
+                               </div>
                        </div>
                </div>
     </div>
