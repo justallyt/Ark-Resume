@@ -1,6 +1,6 @@
 import { useState } from "react"
 import { Link } from "react-router-dom"
-
+import { RxArrowTopRight } from "react-icons/rx";
 const Pricing = () => {
   const [ option, setOption ] = useState(0)
   return (
@@ -112,7 +112,7 @@ const Pricing = () => {
 
                                   <div className="cta-strip">
                                              <h3>Contact us today for a free consultation to discuss your specific needs and unlock your full job search potential!</h3>
-                                             <Link to={"/"}>Book Consultation</Link>
+                                             <Link to={"/"}>Book Consultation <span><RxArrowTopRight /></span></Link>
                                   </div>
                          </div>
                </div>

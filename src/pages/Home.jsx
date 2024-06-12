@@ -2,10 +2,12 @@ import ImageStrip from "../components/common/ImageStrip"
 import Header from "../components/common/navigation/Header"
 import AboutSection from "../components/homepage/AboutSection"
 import Benefits from "../components/homepage/Benefits"
+import BlogSection from "../components/homepage/BlogSection"
 import HeroSection from "../components/homepage/HeroSection"
 import Pricing from "../components/homepage/Pricing"
 import Process from "../components/homepage/Process"
 import ServicesSection from "../components/homepage/ServicesSection"
+import Testimonials from "../components/homepage/Testimonials"
 import "../css/home.css"
 
 const Home = () => {
@@ -19,6 +21,8 @@ const Home = () => {
           <Process />
           <ImageStrip />
           <Pricing />
+          <Testimonials />
+          <BlogSection />
     </>
   )
 }
