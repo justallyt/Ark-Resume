@@ -90,6 +90,7 @@
        background-size: auto;
       height: auto;
       padding: 100px 0;
+      overflow:hidden;
 }
 
 .about-section-container h2{
@@ -311,6 +312,7 @@
       gap: 30px;
       margin-top: 100px;
 }
+
 .process-moja-wrap{
        position: relative;
        display: flex;
@@ -403,7 +405,7 @@
       justify-content: center;
 }
 .image-strip{
-       width: 100%;
+       width: 70%;
        height: 500px;
        overflow: hidden;
        border-radius: 250px;
@@ -416,7 +418,6 @@
        -moz-border-radius: 250px;
        -ms-border-radius: 250px;
        -o-border-radius: 250px;
-       scale: 0 0;
        animation: scroll-watcher linear;
        -webkit-animation: scroll-watcher linear;
        animation-timeline: scroll();
@@ -431,7 +432,6 @@
 
 
 .pricing-section{
-
        padding-bottom: 100px;
 }
 .pricing-intro{
@@ -716,6 +716,7 @@
        -ms-border-radius: 7px;
        -o-border-radius: 7px;
        font-size: 15px;
+       color: var(--main-color);
        gap: 5px;
 }
 .blog-intro a span{
@@ -749,4 +750,237 @@
 .blog-moja h1{
         font-size: 35px;
         font-weight: 500;
+}
+
+
+
+.call-to-action{
+        padding: 0px 0px 100px 0;
+}
+.call-to-action-content{
+       width: 990px;
+       margin: auto;
+       text-align: center;
+       padding: 80px 20px;
+       border-radius: 40px;
+       -webkit-border-radius: 40px;
+       -moz-border-radius: 40px;
+       -ms-border-radius: 40px;
+       -o-border-radius: 40px;
+       background: #091542;
+       color: whitesmoke;
+}
+
+.call-to-action-content h1{
+      font-size: 55px;
+      font-family: var(--bold-font);
+      width: 90%;
+      margin: auto;
+      font-weight: 600;
+}
+
+.call-to-action-content p{
+        font-size: 20px;
+        margin: 20px auto;
+        line-height: 1.7;
+        width: 85%;
+}
+
+.call-to-action-content a{
+        width: 200px;
+        display: flex;
+        margin: auto;
+        height: 55px;
+        justify-content: center;
+        align-items: center;
+        font-size: 16px;
+        border-radius: 8px;
+        -webkit-border-radius: 8px;
+        -moz-border-radius: 8px;
+        -ms-border-radius: 8px;
+        -o-border-radius: 8px;
+        background: var(--main-color);
+        color: white;
+}
+
+.call-to-action-content a span{
+       display: flex;
+       margin-top: 2px;
+}
+
+@media(max-width: 1200px){
+      .blog-intro{
+            flex-direction: column;
+            gap: 20px;
+            align-items: flex-start;
+      }
+}
+@media(max-width: 1090px){
+        .hero-title h1{
+              font-size: 75px;
+              text-align: center;
+        }
+
+        .hero-wrap{
+               grid-template-columns: 1fr;
+        }
+        .hero-image{
+               order: 1;
+        }
+
+        .hero-texts{
+               display: grid;
+               grid-template-columns: 1.5fr 1fr;
+               gap: 40px;
+               align-items: center;
+        }
+        .hero-texts img{
+              height: 250px;
+              margin-top: 0;
+        }
+
+        .about-section-images img{
+               width: 50%;
+               height: 480px;
+        }
+
+        .about-section-container h2{
+               font-size: 30px;
+        }
+
+        .about-section-container .about-section-images{
+                margin: 50px 0;
+        }
+
+        .extra-about{
+               grid-template-columns: 1fr;
+               gap: 10px;
+        }
+    
+        .service-intro,
+        .process-intro,
+        .pricing-intro,
+        .pricing-tab-content,
+        .testimonials-intro,
+        .call-to-action-content{
+                width: 90%;
+        }
+        .services-row{
+                grid-template-columns: 1fr 1fr;
+        }
+
+        .benefits-section,
+        .process-row{
+                grid-template-columns: 1fr;
+        }
+        .process-moja-wrap{
+                 margin-bottom: 60px;
+        }
+
+        .blog-moja h1{
+                font-size: 27px;
+                margin-top: 10px;
+        }
+}
+
+
+@media(max-width: 768px){
+         .hero-title h1{
+               font-size: 45px;
+         }
+         .hero-wrap{
+                margin-top: 20px;
+                gap: 30px;
+         }
+         .about-section-images img{
+                height: 300px;
+         }
+         .about-section-container h2{
+                font-size: 24px;
+         }
+         .service-intro{
+                 width: 100%;
+         }
+         .service-intro h2,
+         .benefits-intro h1,
+         .process-intro h1,
+         .pricing-intro  h1,
+         .testimonials-intro h1,
+         .blog-intro h2,
+         .call-to-action-content h1{
+               font-size: 40px;
+               width: 100%;
+         }
+         .services-row,
+         .blog-content-row{
+                grid-template-columns: 1fr;
+                gap: 20px;
+         }
+         .benefits-row{
+               grid-template-columns: 1fr;
+
+         }
+         .benefit-moja:nth-child(1),
+        .benefit-moja:nth-child(3){
+             border-right: none;
+         }
+       .benefit-moja:nth-child(3),
+       .benefit-moja:nth-child(4){
+            border-top: none;
+         }
+         .benefit-moja{
+                padding: 30px 0;
+         }
+         .benefits-texts-column{
+                 padding: 60px 0;
+         }
+         .process-section{
+                padding-bottom: 0;
+         }
+
+         .cta-strip{
+                flex-direction: column;
+                text-align: center;
+         }
+         .cta-strip h3{
+                font-size: 30px;
+         }
+
+         .blog-image{
+                height: 400px;
+         }
+}
+
+@media(max-width: 500px){
+       .hero-texts{
+               grid-template-columns: 1fr;
+               gap: 20px;
+       }
+       .hero-texts-inner{
+              display: flex;
+              flex-direction: column;
+       }
+     .hero-texts p{
+           text-align: center;
+     }
+     .hero-texts a{
+           margin: 20px auto;
+     }
+
+     .hero-image img{
+           height: 400px;
+     }
+     .pricing-tabs ul li{
+          font-size: 13px;
+     }
+     .package-box{
+            width: 100%;
+     }
+
+     .call-to-action-content h1{
+           font-size: 35px;
+     }
+     .call-to-action-content p{
+           font-size: 17px;
+     }
 }

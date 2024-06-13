@@ -1,5 +1,7 @@
+import CallToAction from "../components/common/CallToAction"
+import Footer from "../components/common/Footer"
 import ImageStrip from "../components/common/ImageStrip"
-import Header from "../components/common/navigation/Header"
+import Navbar from "../components/common/navigation/Navbar"
 import AboutSection from "../components/homepage/AboutSection"
 import Benefits from "../components/homepage/Benefits"
 import BlogSection from "../components/homepage/BlogSection"
@@ -13,7 +15,7 @@ import "../css/home.css"
 const Home = () => {
   return (
     <>
-          <Header />
+          <Navbar />
           <HeroSection />
           <AboutSection />
           <ServicesSection />
@@ -23,6 +25,8 @@ const Home = () => {
           <Pricing />
           <Testimonials />
           <BlogSection />
+          <CallToAction />
+          <Footer />
     </>
   )
 }
