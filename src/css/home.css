@@ -757,6 +757,9 @@
 .call-to-action{
         padding: 0px 0px 100px 0;
 }
+.call-to-action.adjust{
+       padding: 100px 0;
+}
 .call-to-action-content{
        width: 990px;
        margin: auto;

@@ -1,8 +1,10 @@
-import { Link } from "react-router-dom"
+import { Link, useLocation } from "react-router-dom"
 import { RxArrowTopRight } from "react-icons/rx";
 const CallToAction = () => {
+  const { pathname } = useLocation();
+
   return (
-    <div className="call-to-action">
+    <div className={ pathname === "/" ? "call-to-action" : "call-to-action adjust"}>
               <div className="inner-row">
                           <div className="call-to-action-content">
                                     <h1>Ready To Convert your Resume into your Dream Job Magnet?</h1>

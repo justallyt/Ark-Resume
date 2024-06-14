@@ -1,0 +1,204 @@
+.about-hero-section{
+     padding: 100px 0;
+}
+
+.about-hero-content{
+    display: grid;
+    grid-template-columns: 2fr 1.3fr;
+    gap: 50px;
+}
+
+.about-hero-texts h1{
+    font-weight: 500;
+    font-size: 70px;
+    font-family: var(--bold-font);
+}
+
+.about-hero-texts h1 span{
+      font-weight: 700;
+      font-size: 72px;
+}
+
+.hero-paragraphs{
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      margin-top: 30px;
+      gap: 30px;
+}
+
+.hero-paragraphs p{
+     font-size: 18px;
+     line-height: 1.6;
+}
+
+.about-hero-image{
+      height: max-content;
+}
+
+.about-hero-image img{
+     border-radius: 30px;
+     -webkit-border-radius: 30px;
+     -moz-border-radius: 30px;
+     -ms-border-radius: 30px;
+     -o-border-radius: 30px;
+}
+
+.about-body-section{
+       padding: 100px 0;
+       background-color: #091542;
+       background-image: url("../assets/aboutBg.png");
+       overflow: hidden;
+}
+
+.about-body-numbers{
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      width: 1000px;
+      margin: auto;
+}
+
+.about-number-moja h1{
+       font-size: 75px;
+       color: whitesmoke;
+       font-weight: 600;
+}
+.about-number-moja p{
+    font-size: 20px;
+    color: gainsboro;
+}
+
+.about-body-content .about-section-images{
+    display: flex;
+    justify-content: center;
+    margin: 80px 0 100px 0;
+    align-items: center;
+}
+
+.about-statements{
+       display: grid;
+       grid-template-columns: 1fr 1fr;
+       width: 90%;
+       margin: auto;
+       gap: 50px;;
+}
+
+.statement-moja h3{
+     font-size: 25px;
+     text-transform: uppercase;
+     color: whitesmoke;
+     font-weight: 500;
+     margin-bottom: 10px;
+}
+
+.statement-moja p{
+     font-size: 18px;
+     line-height: 1.6;
+     color: gainsboro;
+}
+
+.values-section{
+      padding: 100px 0;
+}
+
+.values-intro{
+    width: 800px;
+    text-align: center;
+    margin: auto;
+}
+
+.values-intro h1{
+      font-size: 55px;
+      font-family: var(--bold-font);
+}
+
+.values-intro p{
+      font-size: 18px;
+      line-height: 1.6;
+      margin: 10px 0;
+}
+
+
+.values-row{
+     display: grid;
+     grid-template-columns: repeat(4, 1fr);
+     gap: 30px;
+     margin-top: 50px;
+}
+
+.value-moja .icon img{
+     width: 40px;
+     height: 40px;
+     object-fit: contain;
+     margin-bottom: 20px;
+}
+
+.value-moja h3{
+    font-size: 21px;
+    font-weight: 600;
+    margin-bottom: 6px;
+}
+.value-moja p{
+    font-size: 17px;
+    line-height: 1.6;
+    color: rgb(50, 50, 50);
+}
+
+@media(max-width: 1090px){
+       .about-hero-content{
+              grid-template-columns: 1fr;
+       }
+
+       .about-body-numbers,
+       .values-intro{
+             width: 100%;
+       }
+
+       .about-number-moja h1{
+            font-size: 55px;
+       }
+       .about-number-moja p{
+            font-size: 18px;
+       }
+
+       .values-row{
+             grid-template-columns: 1fr 1fr;
+       }
+}
+
+@media(max-width: 768px){
+       .about-hero-texts h1,
+       .values-intro h1{
+             font-size: 45px;
+       }
+       .about-hero-texts h1 span{
+             font-size: 55px;
+       }
+       .hero-paragraphs{
+            grid-template-columns: 1fr;
+            gap: 20px;
+       }
+       .about-body-numbers,
+       .values-row{
+            grid-template-columns: 1fr;
+            gap: 30px;
+       }
+
+       .about-number-moja{
+            text-align: center;;
+       }
+
+       .about-statements{
+            grid-template-columns: 1fr;
+            gap: 30px;
+       }
+}
+
+@media(max-width: 500px){
+    .about-hero-texts h1{
+            font-size: 35px;
+    }
+    .about-hero-texts h1 span,
+    .values-intro h1{
+           font-size: 40px;
+    }
+}
