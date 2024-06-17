@@ -20,8 +20,8 @@ const Header = () => {
                                                     <li><NavLink to={'/'}>Home</NavLink></li>
                                                     <li><NavLink to={'/about-us'}>About Us</NavLink></li>
                                                     <li><NavLink to={'/services'}>Services</NavLink></li>
-                                                    <li><NavLink to={'/blog'}>Articles</NavLink></li>
-                                                    <li><NavLink to={'/contact'}>Contact Us</NavLink></li>
+                                                    <li><NavLink to={'/articles'}>Articles</NavLink></li>
+                                                    <li><NavLink to={'/contact-us'}>Contact Us</NavLink></li>
                                             </ul>
 
                                             <div className="header-action">
