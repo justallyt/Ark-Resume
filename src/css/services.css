@@ -1,0 +1,28 @@
+.services-hero-texts{
+    padding: 100px 0;
+}
+
+.services-hero-row{
+      display: grid;
+      grid-template-columns: 1.3fr 1fr;
+      gap: 70px;
+      align-items: center;
+}
+
+.services-hero-texts h1{
+     font-size: 50px;
+     font-family: var(--bold-font);
+     font-weight: 500;
+}
+.services-hero-texts h1 span{
+      font-weight: 600;
+      font-size: 60px;
+}
+.services-hero-texts p{
+     font-size: 18px;
+     line-height: 1.6;
+}
+
+.services-hero img{
+      height: 600px;
+}

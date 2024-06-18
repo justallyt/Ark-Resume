@@ -92,7 +92,7 @@ const AboutSection = () => {
                                                            </div>
                                                            <div className="extra-about-column two">
                                                                     <p>We go beyond writing. We offer personalized guidance throughout the entire job search process, from crafting compelling applications to interview preparation.</p>
-                                                                    <Link to={"/about"}>About the Company</Link>
+                                                                    <Link to={"/about-us"}>About the Company</Link>
                                                            </div>
                                                  </div>
                                       </div>

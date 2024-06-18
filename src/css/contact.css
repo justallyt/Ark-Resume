@@ -116,3 +116,117 @@
       border: none;
       cursor: pointer;
 }
+
+.faq-section{
+       background: white;
+       padding: 100px 0;
+}
+
+.faq-section-content{
+        display: grid;
+        grid-template-columns: 1.25fr 2.5fr;
+        gap: 50px;
+}
+
+.faq-texts h1{
+      font-size: 50px;
+      margin-bottom: 10px;
+}
+
+.faq-texts p{
+       font-size: 17px;
+       line-height: 1.6;
+       color: rgb(65, 65, 65);
+}
+
+.faq-moja{
+      margin-bottom: 20px;
+}
+.faq-header{
+       display: flex;
+       gap: 30px;
+       align-items: center;
+       justify-content: space-between;
+       cursor: 3;
+}
+
+.faq-header h3{
+      font-size: 20px;
+      font-weight: 500;
+}
+
+.faq-header span{
+       display: flex;
+       width: 35px;
+       flex-shrink: 0;
+       height: 35px;
+       border: 1px solid rgb(212, 217, 220);
+       border-radius: 50%;
+       -webkit-border-radius: 50%;
+       -moz-border-radius: 50%;
+       -ms-border-radius: 50%;
+       -o-border-radius: 50%;
+       justify-content: center;
+       align-items: center;
+       transform: rotate(0deg);
+       -webkit-transform: rotate(0deg);
+       -moz-transform: rotate(0deg);
+       -ms-transform: rotate(0deg);
+       -o-transform: rotate(0deg);
+       transition: all 0.7s ease;
+       -webkit-transition: all 0.7s ease;
+       -moz-transition: all 0.7s ease;
+       -ms-transition: all 0.7s ease;
+       -o-transition: all 0.7s ease;
+}
+.faq-header.active span{
+      transform: rotate(180deg);
+      -webkit-transform: rotate(180deg);
+      -moz-transform: rotate(180deg);
+      -ms-transform: rotate(180deg);
+      -o-transform: rotate(180deg);
+}
+.faq-answer{
+       max-height: 0;
+       overflow: hidden;
+       transition: all 0.8s ease;
+       -webkit-transition: all 0.8s ease;
+       -moz-transition: all 0.8s ease;
+       -ms-transition: all 0.8s ease;
+       -o-transition: all 0.8s ease;
+}
+.faq-answer.active{
+       max-height: 400px;
+}
+.answer-inner{
+       padding: 5px 0;
+}
+.faq-answer p{
+      font-size: 16px;
+      color: rgb(65, 65, 65);
+      line-height: 1.5;
+      padding: 0 5px;
+}
+
+
+@media(max-width: 1090px){
+      .contact-hero-content,
+      .faq-section-content{
+            grid-template-columns: 1fr;
+      }
+}
+
+@media(max-width: 768px){
+      .contact-hero-texts h1,
+      .faq-texts h1{
+             font-size: 40px;
+      }
+      .contact-form .form-row.split,
+      .hero-info-row{
+             grid-template-columns: 1fr;
+             gap: 10px;
+      }
+      .faq-header h3{
+            font-size: 18px;;
+      }
+}
