@@ -7,6 +7,7 @@ import Services from './pages/Services';
 import Contact from './pages/Contact';
 import Articles from './pages/Articles';
 import Book from './pages/Book';
+import SingleArticle from './pages/SingleArticle';
 
 function App() {
    const location = useLocation();
@@ -24,6 +25,7 @@ function App() {
               <Route path="/contact-us" element={<Contact />} />
               <Route path="/articles" element={<Articles />} />
               <Route path="/book-consultation" element={<Book />} />
+              <Route path='/articles/:title' element={<SingleArticle />} />
     </Routes>
   )
 }

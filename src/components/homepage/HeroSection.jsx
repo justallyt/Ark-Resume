@@ -17,7 +17,7 @@ const HeroSection = () => {
                                                 <div className="hero-texts">
                                                           <div className="hero-texts-inner">
                                                                    <p>We help you stand out from the crowd and confidently ace interviews by crafting winning resumes, cover letters, LinkedIn profiles, biographies, and elevator pitches that get you noticed and interviewed.</p>
-                                                                   <Link to={'/'}>Explore Services</Link>
+                                                                   <Link to={'/services'}>Explore Services</Link>
                                                           </div>
 
                                                           <img src={hero2} alt="" />
