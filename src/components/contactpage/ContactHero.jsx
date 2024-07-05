@@ -11,7 +11,7 @@ const ContactHero = () => {
 
                                                  <div className="info-texts">
                                                            <p>info@arkresume.com</p>
-                                                           <p>+254 7123 45678</p>
+                                                           <p>+254 704 833 441</p>
                                                  </div>
 
                                                  <div className="hero-info-row">

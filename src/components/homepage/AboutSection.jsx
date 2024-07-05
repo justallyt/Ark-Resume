@@ -78,7 +78,7 @@ const AboutSection = () => {
                <div className="about-section-content">
                           <div className="inner-row">
                                      <div className="about-section-container">
-                                                 <h2>For over three years, we&apos;ve been passionate about empowering individuals like you to land their dream jobs. We go beyond simply writing resumes - we become your trusted career partner.</h2>
+                                                 <h2>For over five years, we&apos;ve been passionate about empowering individuals like you to land their dream jobs. We go beyond simply writing modern resumes - we become your trusted career partner.</h2>
 
 
                                                  <div ref={imagesRef} className="about-section-images">
@@ -88,7 +88,7 @@ const AboutSection = () => {
 
                                                  <div className="extra-about">
                                                            <div className="extra-about-column">
-                                                                     <p>Tired of your  applications going unseen? We&apos;re your one-stop shop for a successful job search in Kenya. Our team of skilled resume writers, equipped with the latest techniques, has a proven track record of helping clients across the globe land interviews. We translate that expertise to craft a resume that gets you noticed by employers.</p>
+                                                                     <p>Tired of your  applications going unseen? We&apos;re your one-stop shop for a successful job search in Kenya. Our team of skilled modern resume writers, equipped with the latest techniques, has a proven track record of helping clients across the globe land interviews. We translate that expertise to craft a modern resume that gets you noticed by employers.</p>
                                                            </div>
                                                            <div className="extra-about-column two">
                                                                     <p>We go beyond writing. We offer personalized guidance throughout the entire job search process, from crafting compelling applications to interview preparation.</p>

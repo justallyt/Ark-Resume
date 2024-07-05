@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom"
 import logo from "../../assets/logo.png"
 import { RxDot } from "react-icons/rx";
-import { FaFacebookF, FaXTwitter, FaInstagram, FaLinkedinIn } from "react-icons/fa6";
+import { FaFacebookF, FaInstagram, FaLinkedinIn } from "react-icons/fa6";
 
 const Footer = () => {
   return (
@@ -14,16 +14,16 @@ const Footer = () => {
                                         </div>         
                                         <ul>
                                                 <li><Link to={'/'}><span><RxDot /></span>Home</Link></li>
-                                                <li><Link to={'/'}><span><RxDot /></span>About Us</Link></li>
-                                                <li><Link to={'/'}><span><RxDot /></span>Services</Link></li>
-                                                <li><Link to={'/'}><span><RxDot /></span>Articles</Link></li>
-                                                <li><Link to={'/'}><span><RxDot /></span>Contact Us</Link></li>
+                                                <li><Link to={"/about-us"}><span><RxDot /></span>About Us</Link></li>
+                                                <li><Link to={'/services'}><span><RxDot /></span>Services</Link></li>
+                                                <li><Link to={'/articles'}><span><RxDot /></span>Articles</Link></li>
+                                                <li><Link to={'/contact-us'}><span><RxDot /></span>Contact Us</Link></li>
                                         </ul>
                                </div>
                                <div className="footer-column">
                                          <h3>Contact Us</h3>
-                                         <p>info@arkresume.com</p>
-                                         <p>+254 7123 45678</p>
+                                         <p>careers@arkresume.com</p>
+                                         <p>+254 704 833 441</p>
                                </div>
                       </div>
             </div>
@@ -35,10 +35,10 @@ const Footer = () => {
 
                                              <div className="social-links">
                                                        <ul>
-                                                              <li><Link to={'/'}><span><FaFacebookF /></span></Link></li>
-                                                              <li><Link to={'/'}><span><FaXTwitter /></span></Link></li>
-                                                              <li><Link to={'/'}><span><FaInstagram /></span></Link></li>
-                                                              <li><Link to={'/'}><span><FaLinkedinIn /></span></Link></li>
+                                                              <li><Link target="_blank" to={'https://web.facebook.com/profile.php?id=100093630061099 '}><span><FaFacebookF /></span></Link></li>
+                                                              {/* <li><Link to={'/'}><span><FaXTwitter /></span></Link></li> */}
+                                                              <li><Link target="_blank" to={'https://www.instagram.com/ark_resume/ '}><span><FaInstagram /></span></Link></li>
+                                                              <li><Link target="_blank" to={'https://www.linkedin.com/company/arkresume/'}><span><FaLinkedinIn /></span></Link></li>
                                                        </ul>
                                              </div>
                                    </div>

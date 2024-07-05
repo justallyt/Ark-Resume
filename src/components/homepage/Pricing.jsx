@@ -32,22 +32,22 @@ const Pricing = () => {
                                                                                 <div className="package-box">
                                                                                            <h4>Beginner CV</h4>
                                                                                            <h5>Experience Level: 0 - 1 years</h5>
-                                                                                           <p><span>Ksh.</span> 1000</p>
+                                                                                           <p><span>Ksh.</span> 1,000</p>
                                                                                 </div>
                                                                                 <div className="package-box">
                                                                                            <h4>Intermediate CV</h4>
                                                                                            <h5>Experience Level: 2 - 5 years</h5>
-                                                                                           <p><span>Ksh.</span> 2000</p>
+                                                                                           <p><span>Ksh.</span> 2,000</p>
                                                                                 </div>
                                                                                 <div className="package-box">
                                                                                             <h4>Mid Level CV</h4>
                                                                                             <h5>Experience Level: 6 - 10 years</h5>
-                                                                                            <p><span>Ksh.</span> 3000</p>
+                                                                                            <p><span>Ksh.</span> 3,000</p>
                                                                                 </div>
                                                                                 <div className="package-box">
                                                                                            <h4>Senior CV</h4>
                                                                                            <h5>Experience Level: 10+ years</h5>
-                                                                                           <p><span>Ksh.</span> 4000</p>
+                                                                                           <p><span>Ksh.</span> 4,000</p>
                                                                                 </div>
                                                                    </div>
                                                           </div>
@@ -58,12 +58,12 @@ const Pricing = () => {
                                                                     <div className="package-box">
                                                                              <h4>Cover Letter</h4>
                                                                              <h5>Experience Level: All levels</h5>
-                                                                             <p><span>Ksh.</span> 1000</p>
+                                                                             <p><span>Ksh.</span> 1,000</p>
                                                                    </div>
                                                                    <div className="package-box">
                                                                              <h4>LinkedIn Optimization</h4>
                                                                              <h5>Experience Level: All levels</h5>
-                                                                             <p><span>Ksh.</span> 3000</p>
+                                                                             <p><span>Ksh.</span> 3,000</p>
                                                                    </div>
                                                           </div>
                                                 </div>
@@ -76,22 +76,22 @@ const Pricing = () => {
                                                                       <div className="package-box">
                                                                                   <h4>Beginner</h4>
                                                                                   <h5>Experience Level: 0 - 1 year</h5>
-                                                                                  <p><span>Ksh.</span> 3000</p>
+                                                                                  <p><span>Ksh.</span> 3,000</p>
                                                                       </div>
                                                                       <div className="package-box">
                                                                                   <h4>Intermediate</h4>
                                                                                   <h5>Experience Level: 2 - 5 years</h5>
-                                                                                  <p><span>Ksh.</span> 5000</p>
+                                                                                  <p><span>Ksh.</span> 5,000</p>
                                                                       </div>
                                                                       <div className="package-box">
                                                                                   <h4>Mid-Level</h4>
                                                                                   <h5>Experience Level: 6 - 10 years</h5>
-                                                                                  <p><span>Ksh.</span> 3000</p>
+                                                                                  <p><span>Ksh.</span> 7,000</p>
                                                                       </div>
                                                                       <div className="package-box">
                                                                                   <h4>Senior</h4>
                                                                                   <h5>Experience Level: 10+ years</h5>
-                                                                                  <p><span>Ksh.</span> 3000</p>
+                                                                                  <p><span>Ksh.</span> 10,000</p>
                                                                       </div>
                                                             </div>
                                                    </div>

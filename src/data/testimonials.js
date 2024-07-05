@@ -42,7 +42,7 @@ export const testimonials = [
     {
         id: 5,
         icon: "/left-quote.png",
-        saying: "Before working with [Company Name], I felt lost and unsure about my resume. Their expert feedback and interview coaching gave me the confidence I needed to ace my interviews. I can't thank them enough!",
+        saying: "Before working with Ark Resume, I felt lost and unsure about my resume. Their expert feedback and interview coaching gave me the confidence I needed to ace my interviews. I can't thank them enough!",
         name: "Emily Brown",
         rating: 5,
         time: "1 month ago"

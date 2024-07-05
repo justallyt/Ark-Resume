@@ -8,7 +8,8 @@ const HeroSection = () => {
               <div className="inner-row">
                          <div className="hero-section-content">
                                      <div className="hero-title">
-                                            <h1>Crafting Resumes that Help You Find your Dream Job.</h1>
+                                            {/* <h1>Crafting Resumes that Help You Find your Dream Job.</h1> */}
+                                            <h1>Unlock Your Career With Our Modern Resumes.</h1>
                                      </div>
                                      <div className="hero-wrap">
                                                 <div className="hero-image">
