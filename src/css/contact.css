@@ -101,6 +101,8 @@
      margin-bottom: 10px;
 }
 
+
+
 .form-btn button{
       width: 100%;
       font-family: var(--regular-font);
@@ -115,6 +117,23 @@
       -o-border-radius: 50px;
       border: none;
       cursor: pointer;
+}
+
+.form-row .error{
+       font-size: 13px;
+       color: red;
+}
+
+.server-msg{
+       font-size: 14px !important;
+       color: var(--main-color) !important;
+       margin-top: 15px;
+}
+
+.honey-special{
+       opacity: 0;
+       display: block;
+       margin-top: -15px !important;
 }
 
 .faq-section{
